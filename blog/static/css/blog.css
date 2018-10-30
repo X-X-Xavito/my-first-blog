@@ -1,16 +1,25 @@
 h1 a {
     color: #FCA205;
-    font-family: 'Lobster';
+    font-family: '-apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif';
+    margin:auto;
 }
 
 body {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #2e2b2b;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 40px 40px;
+    text-align: justify;
+}
+
+
+.header-description{
+  color:#FFF;
+  text-align: center;
+
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -21,6 +30,7 @@ body {
 
 .content {
     margin-left: 40px;
+    text-align: justify;
 }
 
 h1, h2, h3, h4 {
@@ -52,4 +62,8 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+}
+
+.glyphicon{
+  line-height: 0;
 }
