@@ -25,7 +25,7 @@ footer a {
 }
 
 .rodape-contato{
-  padding-left: 40px; 
+  padding-left: 40px;
 }
 
 h1 a {
@@ -45,6 +45,7 @@ main{
   background-color: grey;
   padding-top: 1em;
   padding-bottom: 0.5em;
+  font-weight: bold;
 
 }
 .page-header {
