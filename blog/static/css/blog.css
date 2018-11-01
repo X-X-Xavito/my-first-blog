@@ -1,3 +1,19 @@
+.titulo-principal{
+  position: relative;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 3em;
+}
+footer a {
+    color: #F99;
+}
+
 h1 a {
     color: #FCA205;
     font-family: '-apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif';
@@ -12,7 +28,7 @@ body {
     background-color: #2e2b2b;
     margin-top: 0;
     padding: 20px 20px 40px 40px;
-    text-align: justify;
+    text-align: center;
 }
 
 
