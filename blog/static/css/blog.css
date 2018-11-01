@@ -2,10 +2,20 @@
   position: relative;
 }
 
+html, body{
+  height: 100%;
+}
+
+body {
+  padding-left: 0px;
+}
+
 footer {
     background-color: #333;
     color: #FFF;
-    padding: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+
 }
 footer h2 {
     font-size: 3em;
@@ -14,16 +24,29 @@ footer a {
     color: #F99;
 }
 
+.rodape-contato{
+  padding-left: 40px; 
+}
+
 h1 a {
     color: #FCA205;
     font-family: '-apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif';
     margin:auto;
 }
 
-body {
-    padding-left: 0px;
+main{
+  width: 100%;
+  padding-bottom: 0;
+  float:none;
 }
 
+.rodape-django{
+  text-align:center;
+  background-color: grey;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+
+}
 .page-header {
     background-color: #2e2b2b;
     margin-top: 0;
