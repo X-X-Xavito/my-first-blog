@@ -53,6 +53,10 @@ main{
     margin-top: 0;
     padding: 20px 20px 40px 40px;
     text-align: center;
+    border-bottom: 1px solid #2e2b2b;
+    -webkit-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.75);
 }
 
 
