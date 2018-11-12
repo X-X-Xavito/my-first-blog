@@ -11,7 +11,8 @@ body {
 }
 
 footer {
-    background-color: #333;
+    background: linear-gradient(#696363, #2e2b2b );
+    box-shadow: 0px -2px 7px 0px rgba(0,0,0,0.50);
     color: #FFF;
     padding-top: 0.5em;
     padding-bottom: 0em;
@@ -49,7 +50,7 @@ main{
 
 }
 .page-header {
-    background-color: #2e2b2b;
+    background: linear-gradient(#696363, #2e2b2b );
     margin-top: 0;
     padding: 20px 20px 40px 40px;
     text-align: center;
