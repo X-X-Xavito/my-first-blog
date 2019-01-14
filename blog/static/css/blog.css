@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.comment{
+   margin: 20px 0px 20px 20px;
+}
+
 html, body{
   height: 100%;
 }
@@ -111,3 +115,4 @@ h1, h2, h3, h4 {
 .glyphicon{
   line-height: 0;
 }
+

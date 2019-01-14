@@ -9,12 +9,20 @@
     <body>
         <header class="titulo-principal">
           <div class="page-header">
+              {% if user.is_authenticated %}
+                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+                <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
+                 <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
+              {% else %}
+                 <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
+              {% endif %}
               <h1><a href="/">Kaique Xavier Atalla </a></h1>
               <span class="header-description">
                 Economista e estudante de Análise e Desenvolvimento de Sistemas. Futuro professor de programação e eterno interessado em aprender.
               </span>
               {% if user.is_authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+                <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
               {% endif %}
           </div>
         </header>
@@ -28,7 +36,7 @@
             </div>
         </div>
       </main>
-       <!-- <img src="images/GitHub-Mark-Light-120px-plus.png" alt="Minha foto" class="minha-foto"> -->
+         <!-- <img src="images/GitHub-Mark-Light-120px-plus.png" alt="Minha foto" class="minha-foto"> -->
       <footer>
         <div class="rodape-contato">
           <h2>Vamos conversar?</h2>
